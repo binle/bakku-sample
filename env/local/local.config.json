@@ -1,0 +1,26 @@
+{
+  "allowed_origin_urls": ["https://localhost:8080"],
+  "client_path": "/home/binle/Workspaces/BIN/bin-account-ts/account-web/build",
+  "client_configs": {
+    "domain": ""
+  },
+  "log_config": {
+    "folderPath": "./env/local/store/logs",
+    "filename": "server",
+    "level": "debug",
+    "maxNumberFile": 10,
+    "maxFileSize": 1048576
+  },
+  "database_config": {
+    "username": "user_bin_account",
+    "password": "@NEED_CHANGE_PASSWORD@",
+    "database": "db_bin",
+    "host": "localhost",
+    "port": 5432
+  },
+  "redis_config": {
+    "url": "redis://localhost:6379"
+  },
+  "host": "0.0.0.0",
+  "port": 8080
+}
